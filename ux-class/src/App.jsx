@@ -9,6 +9,7 @@ import FAQ from './Pages/FAQ'
 import Booking from './Pages/Booking'
 import Navbar from './Components/Navbar';
 import Layout from './Components/Layout';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="booking" element={<Booking />} />
         </Route>
       </Routes>
+      <Footer/>
     </Router>
   )
 }

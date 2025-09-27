@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import BookBtn from "./BookBtn"
 
 export default function Navbar() {
     return(
@@ -9,9 +10,7 @@ export default function Navbar() {
                 <li><Link to='/experiences'>Experiences</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
                 <li><Link to='/faq'>FAQ</Link></li>
-                <li className="bg-green-300 border-solid border-black border-2 rounded-lg hover:bg-green-200">
-                    <Link className="inline-block px-3 py-2 align-middle" to='/booking'>Book Your Trip</Link>
-                </li>
+                <li><BookBtn /></li>
             </ul>
         </nav>
     )
