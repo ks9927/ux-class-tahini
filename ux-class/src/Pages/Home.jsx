@@ -1,5 +1,6 @@
 import ImageCarousel from "../Components/ImageCarousel"
 import IntroText from "../Components/IntroText"
+import Card from "../Components/Card"
 
 export default function Home() {
     return(
@@ -13,6 +14,10 @@ export default function Home() {
               </IntroText>
         </div>
 
+        <h2 className="text-center font-bold my-3">Try these things: </h2>
+        <div className="flex">
+         
+        </div>
 
         </div>
     
