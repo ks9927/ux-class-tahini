@@ -1,5 +1,6 @@
 import ImageCarousel from "../Components/ImageCarousel"
 import IntroText from "../Components/IntroText"
+import { Link } from "react-router-dom"
 import Card from "../Components/Card"   
 import ReefImg from "../assets/hiroko-yoshii-reef-unsplash.jpg"
 import ShrimpImg from "../assets/orkun-orcan-shrimp-unsplash.jpg"
@@ -19,7 +20,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-center font-bold my-3 text-2xl">Try these things: </h2>
-        <div className="flex bg-gray-200 p-4">
+        <div className="flex bg-yellow-100 p-4 gap-2">
          <Card
          image={ReefImg}
          alt="photo of orange fish in reef"
@@ -45,6 +46,18 @@ export default function Home() {
          description="Come take a hike and see our scenic views" />
         </div>
 
+        <div className="text-center font-bold my-10 text-lg">
+            <h2>Have any questions?</h2>
+             <h2>Want to do a booking?</h2>
+               <div className="bg-yellow-300 border-solid border-black border-2 
+               rounded-lg hover:bg-yellow-200 w-3xs m-auto mt-4 mb-5">
+                    <Link className="inline-block px-3 py-2 align-middle" to='/contact'>Contact Us</Link>
+                </div>
+              <div className="bg-green-300 border-solid border-black 
+              border-2 rounded-lg hover:bg-green-200 w-3xs m-auto">
+                    <Link className="inline-block px-3 py-2 align-middle" to='/booking'>Book Your Trip</Link>
+                </div>
+        </div>
         </div>
     
     )
