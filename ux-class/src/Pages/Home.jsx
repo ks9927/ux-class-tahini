@@ -15,7 +15,7 @@ export default function Home() {
               </IntroText>
         </div>
 
-        <h2 className="text-center font-bold my-3">Try these things: </h2>
+        <h2 className="text-center font-bold my-3 text-2xl">Try these things: </h2>
         <div className="flex bg-gray-200 p-4">
          <Card
          image={ReefImg}
