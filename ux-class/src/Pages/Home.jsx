@@ -20,31 +20,39 @@ export default function Home() {
         </div>
 
         <h2 className="text-center font-bold my-3 text-2xl">Try these things: </h2>
-        <div className="flex bg-yellow-100 p-4 gap-2">
-         <Card
-         image={ReefImg}
-         alt="photo of orange fish in reef"
-         title="Go to the beach"
-         description="Try snorkelling in our oceans" />
+    <div className="flex bg-yellow-100 p-4 gap-2">
+     <Link to="/experiences" className="no-underline text-inherit">
+      <Card
+      image={ReefImg}
+      alt="photo of orange fish in reef"
+      title="Go to the beach"
+      description="Try snorkelling in our oceans" />
+     </Link>
 
-         <Card
-         image={ShrimpImg}
-         alt="photo of shrimp dish"
-         title="Go to our restaurants"
-         description="Try our Pan-Asian cuisine" />
+     <Link to="/experiences" className="no-underline text-inherit">
+      <Card
+      image={ShrimpImg}
+      alt="photo of shrimp dish"
+      title="Go to our restaurants"
+      description="Try our Pan-Asian cuisine" />
+     </Link>
 
-         <Card
-         image={VolcanoImg}
-         alt="photo of volcano in distance"
-         title="Visit our volcano"
-         description="Come see our active small volcano" />
+     <Link to="/experiences" className="no-underline text-inherit">
+      <Card
+      image={VolcanoImg}
+      alt="photo of volcano in distance"
+      title="Visit our volcano"
+      description="Come see our active small volcano" />
+     </Link>
 
-         <Card
-         image={RainforestImg}
-         alt="photo of waterfall in rainforest"
-         title="Visit our tropical rainforest"
-         description="Come take a hike and see our scenic views" />
-        </div>
+     <Link to="/experiences" className="no-underline text-inherit">
+      <Card
+      image={RainforestImg}
+      alt="photo of waterfall in rainforest"
+      title="Visit our tropical rainforest"
+      description="Come take a hike and see our scenic views" />
+     </Link>
+    </div>
 
         <div className="text-center font-bold my-10 text-lg">
             <h2>Have any questions?</h2>
