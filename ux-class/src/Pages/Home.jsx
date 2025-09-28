@@ -2,6 +2,9 @@ import ImageCarousel from "../Components/ImageCarousel"
 import IntroText from "../Components/IntroText"
 import Card from "../Components/Card"   
 import ReefImg from "../assets/hiroko-yoshii-reef-unsplash.jpg"
+import ShrimpImg from "../assets/orkun-orcan-shrimp-unsplash.jpg"
+import VolcanoImg from "../assets/spenser-sembrat-volcano-unsplash.jpg"
+import RainforestImg from "../assets/nejc-sinkovec-rainforest-unsplash.jpg"
 
 export default function Home() {
     return(
@@ -22,6 +25,24 @@ export default function Home() {
          alt="photo of orange fish in reef"
          title="Go to the beach"
          description="Try snorkelling in our oceans" />
+
+         <Card
+         image={ShrimpImg}
+         alt="photo of shrimp dish"
+         title="Go to our restaurants"
+         description="Try our Pan-Asian cuisine" />
+
+         <Card
+         image={VolcanoImg}
+         alt="photo of volcano in distance"
+         title="Visit our volcano"
+         description="Come see our active small volcano" />
+
+         <Card
+         image={RainforestImg}
+         alt="photo of waterfall in rainforest"
+         title="Visit our tropical rainforest"
+         description="Come take a hike and see our scenic views" />
         </div>
 
         </div>
