@@ -1,6 +1,7 @@
 import ImageCarousel from "../Components/ImageCarousel"
 import IntroText from "../Components/IntroText"
-import Card from "../Components/Card"
+import Card from "../Components/Card"   
+import ReefImg from "../assets/hiroko-yoshii-reef-unsplash.jpg"
 
 export default function Home() {
     return(
@@ -15,8 +16,12 @@ export default function Home() {
         </div>
 
         <h2 className="text-center font-bold my-3">Try these things: </h2>
-        <div className="flex">
-         
+        <div className="flex bg-gray-200 p-4">
+         <Card
+         image={ReefImg}
+         alt="photo of orange fish in reef"
+         title="Go to the beach"
+         description="Try snorkelling in our oceans" />
         </div>
 
         </div>
