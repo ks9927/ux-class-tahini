@@ -1,0 +1,15 @@
+.sources-link {
+  color: #0b64d8; /* typical link blue */
+  text-decoration: underline;
+}
+
+/* Ensure visited links stay a distinct color if desired */
+.sources-link:visited {
+  color: #5a3fb1;
+}
+
+/* Optional hover state */
+.sources-link:hover {
+  color: #084aba;
+  text-decoration: underline;
+}

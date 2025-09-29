@@ -21,7 +21,7 @@ export default function Footer() {
 
             <ul>
             <li><BookBtn /></li>
-            <li className="text-center">Copyright 2025</li>
+            <li className="text-center"><Link to='/sources'>Sources</Link></li>
             </ul>
 
         </div>

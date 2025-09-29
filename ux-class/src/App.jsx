@@ -10,6 +10,7 @@ import Booking from './Pages/Booking'
 import Navbar from './Components/Navbar';
 import Layout from './Components/Layout';
 import Footer from './Components/Footer';
+import Sources from './Pages/Sources';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="faq" element={<FAQ />} />
           <Route path="booking" element={<Booking />} />
+           <Route path="sources" element={<Sources />} />
         </Route>
       </Routes>
       <Footer/>
