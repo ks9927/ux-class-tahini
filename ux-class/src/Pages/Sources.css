@@ -13,3 +13,21 @@
   color: #084aba;
   text-decoration: underline;
 }
+
+.sources-list {
+  list-style: disc; /* show bullets */
+  padding-left: 1.25rem; /* space for bullets */
+  margin: 1rem auto; /* small top/bottom margin and center the list */
+  text-align: left; /* keep list items left-aligned for readability */
+  max-width: 60ch; /* constrain line length for readability */
+  padding-right: 1rem;
+}
+
+.sources-list li {
+  margin: 0.6rem 0; /* increased top and bottom margin between items */
+  line-height: 1.35;
+}
+
+.sources-list li .sources-link {
+  word-break: break-all; /* prevent long URLs from overflowing */
+}
